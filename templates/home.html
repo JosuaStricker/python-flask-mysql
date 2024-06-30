@@ -9,6 +9,7 @@
     <title>Python Flask Mysql</title>
   </head>
   <body>
+    {% include 'nav.html' %}
     <div class="container">      
     <h1>{{company_name}}</h1>
     <img class="img-fluid" id="banner" src="../static/banner.jpg" >
@@ -26,6 +27,6 @@
     <button  class="btn btn-primary btn-lg">Contact us</button>
     </div>
 
-      
+      {% include 'footer.html' %}
       </body>
 </html>
