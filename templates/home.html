@@ -15,9 +15,15 @@
     <img class="img-fluid" id="banner" src="../static/banner.jpg" >
 
     <h2>About Chrono Enigma</h2>
-    <p>
+      <div class="row" style="margin-bottom:16px">
+        <div class="col-md-6">
+    <p class="lead">
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
+        </div>
+    <div class="d-none d-md-block col-md-6">
+      <img src="/static/working-people.jpg" style="height:320px;border-radius:4px">
+    </div>
     <h2>open positions</h2>
     <p>
       {% for job in jobs %}	
